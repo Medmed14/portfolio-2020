@@ -1,0 +1,29 @@
+{
+    "data": [
+    {   
+        "id":"1",
+        "title": "Amazon obtient le feu vert pour son projet de constellation de satellites dédiée à l'internet haut débit",
+        "date": "2 janvier 2021",
+        "photo": "images/starlink.jpg",
+        "text":"Les autorités américaines ont autorisé Amazon à déployer et exploiter 3236 satellites qui viendront formés une constellation dédiée à l'internet haut débit. Baptisé Kuiper, ce projet a pour objectif de fournir une couverture internet au plus grand nombre de personnes. Il semble être une réponse au projet Starlink de SpaceX. Le lancement commercial du service est prévu pour juillet 2029. Présentée au printemps 2019, cette future constellation avait fait l'objet d'une demande d'autorisation en juillet. L'objectif est de fournir un accès internet à haut débit depuis l'espace à des personnes privées de couverture internet à travers le monde. La future constellation fournira également des solutions de backhaul pour les opérateurs de téléphonie mobile en étendant le service LTE et 5G à de nouvelles régions. Ces méga-constellations représentent une nouvelle approche de la communication orbitale. Elles s'appuient sur de petits satellites en orbite terrestre basse (autre 350 et 1350 km d'altitude) plutôt que sur de gros satellites placés en orbite géostationnaire (environ 35 000 km d'altitude), ce qui réduit le temps de latence à environ 30 millisecondes contre les 600 millisecondes actuellement proposées. Etant plus proches de la Terre, ils orbitent néanmoins beaucoup plus vite, ce qui nécessite un nombre considérable de satellites pour garantir une couverture stable. ",
+        "auteur":"Aurore"
+    },
+    {   
+        "id":"2",
+        "title": "Qu'est-ce que le HTTP/3 ?",
+        "date": "6 janvier 2021",
+        "photo": "images/http3.jpg",
+        "text":"HTTP/3 est la prochaine version majeure de HTTP, le protocole par lequel le contenu passe des serveurs aux clients, où il est affiché dans les navigateurs, applications mobiles ou autres applications. HTTP v3 (ou HTTP/3) est différent de tout ce qui l'a précédé. Il s'agit d'une réécriture complète du protocole HTTP qui utilise le protocole QUIC au lieu du protocole TCP, et est également livré avec un support TLS (chiffrement) intégré. Il s'agit d'un amalgame de technologies multiples ; toutes conçuespour rendre le chargement des sites Web plus rapide et sur des connexions chiffrées par défaut. Mais le protocole TCP a été conçu dans les années 70, et personne ne s'attendait à ce qu'il soit utilisépour les communications en temps réel, comme c'est le cas aujourd'hui. Au fil des années, lesingénieurs en logiciel ont commencé à comprendre que TCP n'a jamais été conçu pour la vitesse. Au fil des ans, plusieurs équipes d'ingénieurs ont tenté de créer un meilleur protocole de couche de transport. De tous, les ingénieurs de Google ont eu le plus de succès. Ils ont d'abord créé SPDY, un protocole qui corrigeait certains des problèmes de TCP, puis HTTP-over-SPDY, un protocole qui est finalement devenu le HTTP/2 officiel, maintenant utilisé sur environ 40 % des sites Internet. Mais SPDY n'est qu'une amélioration par rapport au TCP et à ses principes. Les ingénieurs de Google sesont rendu compte qu'ils pourraient faire beaucoup mieux s'ils combinaient la fiabilité de TCP et lavitesse d'UDP, ensemble dans un protocole totalement nouveau. C'est ainsi qu'est né QUIC, (ou Quick UDP) Internet Connections. Comme son nom l'indique, il s'agit d'un protocole qui fusionne les meilleures fonctionnalités de TCP et UDP, afin de construire un protocole detransport de couche 4 encore plus rapide. HTTP/3 est QUIC implémenté dans HTTP, remplaçant TCP et SPDY au niveau du transport. Il a été officiellement approuvé en octobre dernier. Selon W3Techs, HTTP/3 n'est actuellement utilisé que par 3% de tous les sites Internet.",
+        "auteur":"Jean"
+   
+    },
+    {   
+        "id":"3",
+        "title": "Les pays où il fait bon vivre en tant que développeur web",
+        "date": "12 janvier 2021",
+        "photo": "images/developpeur.jpg",
+        "text":"Grâce à la nature internationale des langages informatiques, il est devenu beaucoup plus facile pour les développeurs de s'installer à l'étranger, à la recherche d'emplois mieux valorisés. Il existe encore de grandes différences de salaire à travers le monde, ce qui peut justifier ces envies d'ailleurs. Selon les données recueillies par Yell Business, le Royaume-Uni se classe au quinzième rang en matière de rémunération pour les développeurs web, après ajustement du coût de la vie, avec un salaire moyen de 32 286 livres (soit près de 38 060 euros). Parmi la liste dressée par Yell, 13 pays - dont l'Afrique du Sud, la Grèce et l'Irlande - avaient des salaires moyens de développeurs web inférieurs à ceux du Royaume-Uni. Les développeurs chinois sont les grands gagnants du classement, avec un salaire moyen de 55 352 livres après ajustement au coût de la vie, qui est beaucoup plus bas en Chine. Si le salaire moyen réel est similaire, la différence significative de niveau de vie signifie que les développeurs chinois sont mieux lotis que leurs concurrents britanniques.",
+        "auteur":"Aurore"
+    }
+]
+}

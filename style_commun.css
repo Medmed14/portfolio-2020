@@ -1,0 +1,107 @@
+/* debut design page generale */
+body {
+    margin: 0px;
+    font-family: "Comfortaa", cursive;
+    background-color: #133337;
+    overflow-x: hidden;
+}
+/* fin design page generale */
+/* debut design du header */
+header {
+    margin-top: 40px;
+    background-color: #597073;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+.list-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0em;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    padding-top: 45px;
+}
+
+.list-links>li {
+    margin-left:1%;
+    margin-right:1%;
+}
+
+.lien {
+    text-decoration: none;
+    color: #d5dcba;
+    margin-top: 10px;
+    padding-top: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 2em;
+    border: 1px solid #203020;
+    border-radius: 15px;
+    transition: color 1s, border 1s;
+}
+
+#secret {
+    color: #d5dcba;
+    text-decoration: none;
+    padding: 1%;
+}
+
+a:hover {
+    color: #203020;
+    border: 1px solid #d5dcba;
+    border-radius: 15px;
+}
+#underline {
+    background-color: #d5dcba;
+    padding: 0.2%;
+    border-radius: 15px;
+    margin-right: 6%;
+    margin-left: 6%;
+}
+/* fin design header */
+/* design du body */
+h1 {
+    color: #d5dcba;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+/* fin design du body */
+
+/* debut design du footer */
+footer {
+    background-color: #597073;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    padding: 1.5%;
+    right: 0px;
+    left: 0px;
+}
+footer > div {
+    text-align: center;
+    color: #d5dcba;
+}
+
+/* fin design du footer */
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .list-links {
+    
+        padding-right: 2.5rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .list-links > li {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-size: 0.9em;
+    }
+    h1 {
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+}

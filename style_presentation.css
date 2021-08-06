@@ -1,0 +1,86 @@
+/* design du main Presentation */
+div>div{
+    color:#d5dcba;
+    margin-bottom:2%;
+    margin-right:1%;
+    margin-left:1%;
+    padding:1%;
+    border:1px dotted #d5dcba;
+    border-radius:15px;
+    line-height:1.5em;
+}
+#conteneur{
+    margin-left:38%;
+}
+img{
+    position:absolute;
+    width: 250px;
+    margin-left:9%;
+}
+div>h3{
+    margin-left:4em;
+}
+#permis,#qualites,#interets{
+    border: 1px dotted #d5dcba;
+    color:#d5dcba;
+    border-radius:15px;
+    line-height:1.5em;
+    padding-right:6em;
+    position:absolute;
+}
+#permis{
+   margin-top:25%;
+   margin-left:8%;
+}
+
+#qualites{
+    margin-top:40%;
+    margin-left:8%;
+}
+
+#interets{
+    margin-top:60%;
+    margin-left:8%;
+}
+#boutonCV:hover{
+    color:#689088;
+}
+
+/* fin design du main */
+
+@media screen and (min-width: 300px) and (max-width: 800px){
+
+    #conteneur{
+        margin-left:1%;
+        margin-top:10em;
+    }
+    img{
+        width:40%;
+        margin-left:30%;
+        
+    }
+    div>div{
+        margin-right:2%;
+        margin-bottom:2%;
+        margin-left:1%;
+    }
+    #permis,#qualites,#interets{
+        position: relative;
+        margin-left:2%;
+        margin-right:2%;
+    }
+    #permis{
+        margin-top:70%;
+     }
+     
+     #qualites{
+         margin-top:10%;
+     }
+     
+     #interets{
+         margin-top:10%;
+     }
+     #conteneur{
+        margin-top:10%;
+    }
+}
